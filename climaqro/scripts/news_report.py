@@ -53,29 +53,37 @@ def format_transport_data(data):
     return formatted_data
 
 
-def get_news_considerations(user_message, client):
+def get_news_considerations(ruta, client):
     data = load_news_scrapped()
     # Crear el prompt con el contexto y el mensaje del usuario
     transport_data = format_transport_data(data)
-    SYSTEM_INSTRUCTION = """Eres un asistente especializado en transporte público en Querétaro, México. 
-    Tu objetivo es proporcionar información precisa y útil sobre las rutas de transporte, 
-    paradas, horarios y servicios disponibles en la ciudad.
+    SYSTEM_INSTRUCTION = """
+    Eres un asistente especializado en transporte público en Querétaro, México. 
+    Tu objetivo es tomar como input rutas que consisten en paradas de autobús, compararlas con las noticias scrappeadas, e identificar si una de las noticias impacta la ruta.
 
-    Información importante:
-    - Debes responder solo preguntas relacionadas con transporte en Querétaro
-    - Utiliza la información proporcionada en el archivo data.json
-    - Si no tienes información específica sobre algo, indícalo claramente
-    - Mantén un tono profesional y amigable
-    - Proporciona información detallada y precisa
+    La respuesta debe estar en el siguiente formato:
+    
+    |parada||<nombre_parada>|
+    |razon||<razon_de_impacto>|
+    |titulo||<titulo_de_noticia>|
+    |cambiar_ruta||<True/False>|
+    
     """
-    prompt = f"{SYSTEM_INSTRUCTION}\n\n{transport_data}\n\nPregunta del usuario: {user_message}\n\nPor favor, responde basándote en la información disponible sobre transporte en Querétaro."
+    prompt = f"""
+    Compilacion de noticias:
+    {transport_data}\n\n
+    Viaje (Ruta y paradas) del usuario: 
+    {ruta}\n\n
+    Responde solo basándote en las noticias disponibles y la ruta dada.
+    """
     
     response = client.models.generate_content(
         model="gemini-2.0-flash",
         contents=prompt,
         config=types.GenerateContentConfig(
             max_output_tokens=300,
-            temperature=0.5
+            temperature=0.5,
+            system_instruction=SYSTEM_INSTRUCTION,
         )
     )
     

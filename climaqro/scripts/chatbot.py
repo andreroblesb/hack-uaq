@@ -73,6 +73,8 @@ def answer_user(origin, destination, system_instruction, client):
         prompt = f"Debes pedir al usuario que provea el origen y el destino de su viaje. Usa un todo amable y conciso."
     elif origin != "Nan" and origin is not None and destination != "Nan" and destination is not None:
         prompt = f"El origen y el destino han sido registrados. Indícaselo al usuario en un tono amable y conciso. Dile además que se están buscando las mejores rutas."
+        # cambiar variable entorno
+        os.environ["route_found"] = "True"
     
     else:
         if destination == "Nan" or destination is None:
@@ -91,3 +93,22 @@ def answer_user(origin, destination, system_instruction, client):
     )
     
     return response.text
+
+def last_interaction(news_awareness, climate_report, response_text, client):
+    prompt = f"""
+    Condensa la información de los siguientes datos como una recomendación amable y concisa para el viaje del usuario:
+    
+    news_awareness: {news_awareness}
+    climate_report: {climate_report}
+    """
+    response = client.models.generate_content(
+        model="gemini-2.0-flash",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            max_output_tokens=300,
+            temperature=0.5,
+        )
+    )
+    
+    answer = response_text + "\n" + response.text
+    return answer

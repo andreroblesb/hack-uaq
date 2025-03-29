@@ -26,8 +26,8 @@
     },
     {
       "timestampMs": "1679837723456",
-      "latitudeE7": 20.617671671905843,
-      "longitudeE7": -100.42269065126584,
+      "latitudeE7": 20.609613587816618,
+      "longitudeE7": -100.40638322300074,
       "accuracy": 8,
       "activity": [
         {
@@ -50,8 +50,8 @@
     },
     {
       "timestampMs": "1679837923456",
-      "latitudeE7": 20.614855143136616,
-      "longitudeE7": -100.39400753558355,
+      "latitudeE7": 20.609613587816618,
+      "longitudeE7": -100.40638322300074,
       "accuracy": 10,
       "activity": [
         {
@@ -62,8 +62,8 @@
     },
     {
       "timestampMs": "1679838023456",
-      "latitudeE7": 20.617671671905843,
-      "longitudeE7": -100.42269065126584,
+      "latitudeE7": 20.609613587816618,
+      "longitudeE7": -100.40638322300074,
       "accuracy": 9,
       "activity": [
         {
