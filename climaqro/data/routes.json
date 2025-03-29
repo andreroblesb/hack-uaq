@@ -1,0 +1,5606 @@
+{
+  "results": [
+    {
+      "result": {
+        "itinerary": {
+          "guid": "20250329F1A94D460C174D1584E56D7151059AFF:0",
+          "sectionId": 521,
+          "groupType": 3,
+          "groupKey": "521",
+          "legs": [
+            {
+              "bicycleLeg": {
+                "time": {
+                  "startTimeUtc": 1743236453000,
+                  "endTimeUtc": 1743238101000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743236453000,
+                  "staticEndTimeUtc": 1743238101000
+                },
+                "journey": {
+                  "origin": {
+                    "caption": "Av. 5 De Febrero Y Corporativo Santander",
+                    "id": 0,
+                    "latlon": {
+                      "latitude": 20638763,
+                      "longitude": -100430121
+                    },
+                    "type": 6,
+                    "metroId": 3143
+                  },
+                  "dest": {
+                    "caption": "La Comer Zaragoza Y Tecnologico",
+                    "id": 0,
+                    "latlon": {
+                      "latitude": 20585075,
+                      "longitude": -100401623
+                    },
+                    "type": 6,
+                    "metroId": 3143
+                  }
+                },
+                "shape": {
+                  "distanceInMeters": 7819.60894548893,
+                  "polyline": "c_~|Bdg~cRBBVOGK\\Mb@Qz@]|@]fEcB\\KVMxAo@~FsBdG}B`DgAvGqBtDgAjAA\\KNE@HEB@DHECMc@uBGB?BDABJC@QDyC|@Me@Oo@S_AcAmDUw@hAUzBe@YwApCm@lCk@W{AzBi@HCJChEgAxD_AzDcAxDaAzDaAnA[n@g@bFaB?cAQeBx@WBIDe@VwCBa@BQD?@UB@`AHCNT?tCq@bAWdBc@T`@rCy@HCx@[v@Ul@QHh@tAEv@MpCEpD?rC?r@CT{A\\iADMBGj@q@VSlBqAp@g@TSVQ|AuA\\YRQd@a@b@a@jC{BHI`@[hE}CtDkBt@a@hCsAx@]v@_@nAuAdCmCn@s@RULMLMFIFGBCPSrGmH`@e@PSNCFEH@pA@l@@l@@B?Z@F?D?pAMLAN?TCZBvCCzBEPGF?F?D?L?j@@fAD~@DfBB`BBL@T?P@D?R?@@P?H?D?P@ND`@PdCpANHF?D?TF`@@\\GNGDABABA\\ONGDCDADEAGh@Q`@OHCfGqBt@WxAe@fBm@f@QhA]z@WpBm@z@W`@K@?ZHBCFCBAj@SlAe@z@]hAa@~Am@d@Qb@QbA]|@[ZKd@Or@WdEcBZKXING`@Mv@YDA@AB?d@SVKCIGWCMYiA"
+                },
+                "cyclingInstructions": [
+                  {
+                    "direction": {
+                      "relative": 6
+                    },
+                    "streetName": "Avenida 5 de Febrero",
+                    "lengthInMeters": 1012.47008228302,
+                    "travelTimeInMs": 207000,
+                    "startLocation": {
+                      "latitude": 20638637,
+                      "longitude": -100429985
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 7
+                    },
+                    "streetName": "Avenida 5 de Febrero",
+                    "lengthInMeters": 104.42611265182495,
+                    "travelTimeInMs": 22000,
+                    "startLocation": {
+                      "latitude": 20629815,
+                      "longitude": -100425559
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 7
+                    },
+                    "streetName": "Calle General Francisco Villa",
+                    "lengthInMeters": 114.38418579101562,
+                    "travelTimeInMs": 24000,
+                    "startLocation": {
+                      "latitude": 20631389,
+                      "longitude": -100424010
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 3
+                    },
+                    "streetName": "Calle Cerro del Patol",
+                    "lengthInMeters": 48.813724517822266,
+                    "travelTimeInMs": 10000,
+                    "startLocation": {
+                      "latitude": 20630398,
+                      "longitude": -100423713
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 7
+                    },
+                    "streetName": "Calle Peña de Bernal",
+                    "lengthInMeters": 166.56612396240234,
+                    "travelTimeInMs": 34000,
+                    "startLocation": {
+                      "latitude": 20630529,
+                      "longitude": -100423265
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 3
+                    },
+                    "streetName": "Calle Cerro del Huizache",
+                    "lengthInMeters": 50.260955810546875,
+                    "travelTimeInMs": 11000,
+                    "startLocation": {
+                      "latitude": 20629089,
+                      "longitude": -100422823
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 7
+                    },
+                    "streetName": "Calle Cerro de la Bufa",
+                    "lengthInMeters": 721.8334331512451,
+                    "travelTimeInMs": 148000,
+                    "startLocation": {
+                      "latitude": 20629212,
+                      "longitude": -100422358
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 5
+                    },
+                    "streetName": "Calle Cerro del Fortín",
+                    "lengthInMeters": 137.31796264648438,
+                    "travelTimeInMs": 28000,
+                    "startLocation": {
+                      "latitude": 20623093,
+                      "longitude": -100420094
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 3
+                    },
+                    "streetName": "Calle Cerro del Peñón",
+                    "lengthInMeters": 89.56729125976562,
+                    "travelTimeInMs": 18000,
+                    "startLocation": {
+                      "latitude": 20621948,
+                      "longitude": -100419600
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 7
+                    },
+                    "streetName": "Calle Cerro del Chiquihuite",
+                    "lengthInMeters": 34.625057220458984,
+                    "travelTimeInMs": 7000,
+                    "startLocation": {
+                      "latitude": 20622043,
+                      "longitude": -100418748
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 3
+                    },
+                    "streetName": "Calle Cerro del Zamorano",
+                    "lengthInMeters": 132.6322364807129,
+                    "travelTimeInMs": 28000,
+                    "startLocation": {
+                      "latitude": 20621753,
+                      "longitude": -100418626
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 5
+                    },
+                    "streetName": "Calle Cerro del Tambor",
+                    "lengthInMeters": 88.0806884765625,
+                    "travelTimeInMs": 18000,
+                    "startLocation": {
+                      "latitude": 20621065,
+                      "longitude": -100417397
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 5
+                    },
+                    "streetName": "Calle del Mirador",
+                    "lengthInMeters": 705.3285689353943,
+                    "travelTimeInMs": 149000,
+                    "startLocation": {
+                      "latitude": 20620307,
+                      "longitude": -100417148
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 3
+                    },
+                    "streetName": "Calle Camino Real",
+                    "lengthInMeters": 1271.9233031272888,
+                    "travelTimeInMs": 265000,
+                    "startLocation": {
+                      "latitude": 20614379,
+                      "longitude": -100416427
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 5
+                    },
+                    "streetName": "Avenida San Roque",
+                    "lengthInMeters": 302.01506328582764,
+                    "travelTimeInMs": 63000,
+                    "startLocation": {
+                      "latitude": 20605756,
+                      "longitude": -100408727
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 6
+                    },
+                    "streetName": "Calle Ejido",
+                    "lengthInMeters": 405.6381883621216,
+                    "travelTimeInMs": 90000,
+                    "startLocation": {
+                      "latitude": 20603856,
+                      "longitude": -100406653
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 5
+                    },
+                    "streetName": "Calle José Amilcar Vidal",
+                    "lengthInMeters": 425.82669830322266,
+                    "travelTimeInMs": 92000,
+                    "startLocation": {
+                      "latitude": 20600235,
+                      "longitude": -100406477
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 4
+                    },
+                    "streetName": "Calle José Amilcar Vidal",
+                    "lengthInMeters": 66.39033222198486,
+                    "travelTimeInMs": 14000,
+                    "startLocation": {
+                      "latitude": 20596550,
+                      "longitude": -100407212
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 3
+                    },
+                    "streetName": "Avenida Universidad",
+                    "lengthInMeters": 3.85748291015625,
+                    "travelTimeInMs": 1000,
+                    "startLocation": {
+                      "latitude": 20595582,
+                      "longitude": -100406965
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 6
+                    },
+                    "streetName": "Ciclovía Tecnológico",
+                    "lengthInMeters": 16.83582103252411,
+                    "travelTimeInMs": 5000,
+                    "startLocation": {
+                      "latitude": 20590687,
+                      "longitude": -100404856
+                    }
+                  },
+                  {
+                    "direction": {
+                      "relative": 4
+                    },
+                    "streetName": "Avenida Tecnológico",
+                    "lengthInMeters": 682.1246128082275,
+                    "travelTimeInMs": 147000,
+                    "startLocation": {
+                      "latitude": 20590543,
+                      "longitude": -100404906
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "hasPrev": 0,
+          "hasNext": 0,
+          "relevantForRealtime": 0,
+          "isAccessible": 0,
+          "hasSecondaryArrivalItinerary": 0,
+          "sectionName": "Rutas caminando y en bicicleta",
+          "serverContext": "{\"sectionRequestId\":101,\"tripPlanProfile\":\"Fastest\",\"timeTargetTimestamp\":1743236451852,\"sectionId\":521}"
+        }
+      },
+      "supplementalData": {}
+    },
+    {
+      "result": {
+        "tripPlanSections": {
+          "tripPlanSections": [
+            {
+              "name": "Trayectos sugeridos",
+              "sectionId": 1,
+              "maxItemsToDisplay": 2,
+              "sectionType": 16
+            },
+            {
+              "name": "Rutas caminando y en bicicleta",
+              "sectionId": 521,
+              "maxItemsToDisplay": 3,
+              "sectionType": 2
+            }
+          ],
+          "isOtpRt": 0
+        }
+      }
+    },
+    {
+      "result": {
+        "itinerary": {
+          "guid": "20250329DB568757C3B342C3A6EA6AAA6F5D6762:0",
+          "sectionId": 1,
+          "groupType": 1,
+          "groupKey": "1",
+          "legs": [
+            {
+              "waitToMultiLineLeg": {
+                "time": {
+                  "startTimeUtc": 1743247440000,
+                  "endTimeUtc": 1743247440000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743247440000,
+                  "staticEndTimeUtc": 1743247440000
+                },
+                "waitAtStopId": 38305041,
+                "departOnStopId": 38305753,
+                "multiLinesImage": {
+                  "imageId": -126,
+                  "parameters": [
+                    "0",
+                    "0",
+                    "292a30",
+                    "-61",
+                    "20",
+                    "",
+                    "",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "text",
+                    "0",
+                    "67",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "21",
+                    "292a30",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247440000,
+                      "endTimeUtc": 1743247440000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247440000,
+                      "staticEndTimeUtc": 1743247440000
+                    },
+                    "waitToLineId": 800231,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894920,
+                          "tripId": 1164498407,
+                          "staticEtdUTC": 1743247440000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 35
+                        },
+                        {
+                          "patternId": 6894920,
+                          "tripId": 1164498426,
+                          "staticEtdUTC": 1743249240000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 35
+                        },
+                        {
+                          "patternId": 6894920,
+                          "tripId": 1164498391,
+                          "staticEtdUTC": 1743251040000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 35
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247440000,
+                      "endTimeUtc": 1743248220000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247440000,
+                      "staticEndTimeUtc": 1743248220000
+                    },
+                    "waitToLineId": 4651114,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894885,
+                          "tripId": 1164517414,
+                          "staticEtdUTC": 1743248220000,
+                          "isLastArrival": 0,
+                          "stopIndex": 26,
+                          "patternStopsSize": 58
+                        },
+                        {
+                          "patternId": 6894885,
+                          "tripId": 1164517469,
+                          "staticEtdUTC": 1743249120000,
+                          "isLastArrival": 0,
+                          "stopIndex": 26,
+                          "patternStopsSize": 58
+                        },
+                        {
+                          "patternId": 6894885,
+                          "tripId": 1164517383,
+                          "staticEtdUTC": 1743250020000,
+                          "isLastArrival": 0,
+                          "stopIndex": 26,
+                          "patternStopsSize": 58
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  }
+                ],
+                "primaryAlternativeIndex": 0,
+                "metroId": 3143,
+                "waitAtChildStopId": 38305041,
+                "departOnChildStopId": 38305753
+              }
+            },
+            {
+              "lineWithAlternativesLeg": {
+                "alternativeLines": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247440000,
+                      "endTimeUtc": 1743248604000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247440000,
+                      "staticEndTimeUtc": 1743248604000
+                    },
+                    "lineId": 800231,
+                    "stopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 7575.705687285948,
+                      "polyline": "o_~|Bvf~cRBAxW{JtI_DtBq@`KwCtDiA??zFeBfKkDhHeCrA]|LqDrJ}B`C_@??tB[~FmAnEw@~C]nImBjGkABPlCg@fYkFzBe@l@IxJkB??lx@eO??bDm@l@MBCAi@D?@F@DFJJFt@Oh@IHCn@MJClCg@JCz@OnCi@rGqAlE{@XI@DpHuAvAY`DkApBkABBpAy@zPkRvA}ArCeD?Ah@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 1164498407,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248220000,
+                      "endTimeUtc": 1743249780000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248220000,
+                      "staticEndTimeUtc": 1743249780000
+                    },
+                    "lineId": 4651114,
+                    "stopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 7575.705687285948,
+                      "polyline": "o_~|Bvf~cRBAxW{JtI_DtBq@`KwCtDiA??zFeBfKkDhHeCrA]|LqDrJ}B`C_@??tB[~FmAnEw@~C]nImBjGkABPlCg@fYkFzBe@l@IxJkB??lx@eO??bDm@l@MBCAi@D?@F@DFJJFt@Oh@IHCn@MJClCg@JCz@OnCi@rGqAlE{@XI@DpHuAvAY`DkApBkABBpAy@zPkRvA}ArCeD?Ah@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 1164517414,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  }
+                ],
+                "primaryAlternativeIndex": 0
+              }
+            },
+            {
+              "walkLeg": {
+                "time": {
+                  "startTimeUtc": 1743248604000,
+                  "endTimeUtc": 1743248700000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743248604000,
+                  "staticEndTimeUtc": 1743248700000
+                },
+                "journey": {
+                  "origin": {
+                    "id": 38305753,
+                    "latlon": {
+                      "latitude": 20584541,
+                      "longitude": -100402458
+                    },
+                    "type": 5,
+                    "metroId": 3143
+                  },
+                  "dest": {
+                    "caption": "La Comer Zaragoza Y Tecnologico",
+                    "id": 0,
+                    "latlon": {
+                      "latitude": 20585075,
+                      "longitude": -100401623
+                    },
+                    "type": 6,
+                    "metroId": 3143
+                  }
+                },
+                "shape": {
+                  "distanceInMeters": 123.31307983398438,
+                  "polyline": "kls|BjzxcRUe@GWCKGUa@LOm@Mg@"
+                },
+                "walkingInstructoins": [
+                  {
+                    "direction": {
+                      "relative": 1
+                    },
+                    "streetName": "Avenida Ignacio Zaragoza",
+                    "lengthInMeters": 123.31307983398438,
+                    "travelTimeInMs": 96000,
+                    "startLocation": {
+                      "latitude": 20584541,
+                      "longitude": -100402458
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "hasPrev": 0,
+          "hasNext": 1,
+          "relevantForRealtime": 0,
+          "isAccessible": 0,
+          "hasSecondaryArrivalItinerary": 0,
+          "sectionName": "Trayectos sugeridos",
+          "serverContext": "{\"sectionRequestId\":1,\"tripPlanProfile\":\"Fastest\",\"timeTargetTimestamp\":1743236451852,\"sectionId\":1}"
+        }
+      },
+      "supplementalData": {
+        "lineGroupSummaryList": [
+          {
+            "groupId": 281812,
+            "lineNumber": "67",
+            "agencyId": 854309,
+            "color": -10403930,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 800231,
+                "destination": "Tanque",
+                "routeLongName": "Tanque - El Nabo"
+              },
+              {
+                "lineId": 4651132,
+                "destination": "El Nabo",
+                "routeLongName": "Tanque - El Nabo"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Tanque - El Nabo",
+            "caption2": "67 Tanque - El Nabo",
+            "type": 1
+          },
+          {
+            "groupId": 281785,
+            "lineNumber": "21",
+            "agencyId": 854309,
+            "color": -16745027,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 4651114,
+                "destination": "Bosques Del Cimatario",
+                "routeLongName": "Ciudad Del Sol - Bosques Del Cimatario"
+              },
+              {
+                "lineId": 4679932,
+                "destination": "Ciudad Del Sol",
+                "routeLongName": "Ciudad Del Sol - Bosques Del Cimatario"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Ciudad Del Sol - Bosques Del Cimatario",
+            "caption2": "21 Ciudad Del Sol - Bosques Del Cimatario",
+            "type": 1
+          }
+        ],
+        "mVStopSyncedMetaDataList": [
+          {
+            "stopId": 38305912,
+            "stopName": "5 De Febrero Y Carretera A Tlacote",
+            "stopLocation": {
+              "latitude": 20586440,
+              "longitude": -100412433
+            },
+            "stopCode": "461",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  6908303,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  6908327,
+                  8412657,
+                  4651127,
+                  4679957,
+                  4651154,
+                  8412662,
+                  800283,
+                  4651130,
+                  4651099,
+                  4679961
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305753,
+            "stopName": "Prol. Zaragoza Y Tecnologico",
+            "stopLocation": {
+              "latitude": 20584405,
+              "longitude": -100402382
+            },
+            "stopCode": "57",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  6908335,
+                  4679937,
+                  800229,
+                  8909421,
+                  800231,
+                  4651114,
+                  6908327,
+                  6908294,
+                  800195,
+                  6908313,
+                  8412657,
+                  4679957,
+                  800286,
+                  4651154,
+                  6908316,
+                  6908306,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306747,
+            "stopName": "5 De Febrero Y Tremec",
+            "stopLocation": {
+              "latitude": 20629640,
+              "longitude": -100426060
+            },
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  8913645,
+                  8412662,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  800279,
+                  4651114,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305915,
+            "stopName": "5 De Febrero Y Cea",
+            "stopLocation": {
+              "latitude": 20589819,
+              "longitude": -100413758
+            },
+            "stopCode": "463",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  6908303,
+                  4679937,
+                  6908334,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  6908327,
+                  8412657,
+                  4651127,
+                  4679957,
+                  4651154,
+                  8412662,
+                  4651130,
+                  4651099,
+                  4679961
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305917,
+            "stopName": "5 De Febrero E Ignacio Zaragoza",
+            "stopLocation": {
+              "latitude": 20581982,
+              "longitude": -100407733
+            },
+            "stopCode": "467",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  6908303,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  6908327,
+                  800195,
+                  8412657,
+                  4679957,
+                  4651154,
+                  8412662,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305343,
+            "stopName": "5 De Febrero Y Carretera Al Campo Militar",
+            "stopLocation": {
+              "latitude": 20596208,
+              "longitude": -100415562
+            },
+            "stopCode": "373",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908328,
+                  800207,
+                  4679937,
+                  1099545,
+                  6908327,
+                  4679957,
+                  4651154,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4651099,
+                  4679961,
+                  4651160,
+                  6908297,
+                  6908298,
+                  5878333,
+                  6908301,
+                  6908303,
+                  8913647,
+                  800229,
+                  4651117,
+                  800231,
+                  4651114,
+                  800163,
+                  8412657,
+                  800253,
+                  4651127,
+                  8412662
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305344,
+            "stopName": "Av. 5 De Febrero Y Puente De Mabe",
+            "stopLocation": {
+              "latitude": 20613046,
+              "longitude": -100420319
+            },
+            "stopCode": "379",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  5878333,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4651115,
+                  6908327,
+                  800163,
+                  4651127,
+                  4679957,
+                  8412662,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 45153320,
+            "stopName": "Prol. Zaragoza Y Churubusco",
+            "stopLocation": {
+              "latitude": 20584031,
+              "longitude": -100404209
+            },
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  6908335,
+                  4679937,
+                  800229,
+                  800231,
+                  4651114,
+                  6908327,
+                  6908294,
+                  800195,
+                  6908313,
+                  8412657,
+                  4679957,
+                  800286,
+                  4651154,
+                  6908316,
+                  6908306,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305041,
+            "stopName": "Av. 5 De Febrero Y Corporativo Santander",
+            "stopLocation": {
+              "latitude": 20638763,
+              "longitude": -100430121
+            },
+            "stopCode": "731",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  5878333,
+                  8412662,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305073,
+            "stopName": "5 De Febrero Y Coahuila",
+            "stopLocation": {
+              "latitude": 20619794,
+              "longitude": -100422152
+            },
+            "stopCode": "322",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908329,
+                  1099538,
+                  8913644,
+                  5878333,
+                  6908300,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800198,
+                  4651116,
+                  800231,
+                  4651114,
+                  6908326,
+                  4679955,
+                  8412662,
+                  800209,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306034,
+            "stopName": "Ignacio Zaragoza Y 5 De Febrero",
+            "stopLocation": {
+              "latitude": 20582661,
+              "longitude": -100406045
+            },
+            "stopCode": "53",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  4679937,
+                  800229,
+                  8909421,
+                  800231,
+                  4651114,
+                  6908327,
+                  6908294,
+                  800195,
+                  4623817,
+                  8412657,
+                  4679957,
+                  800286,
+                  4651154,
+                  6908306,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306166,
+            "stopName": "5 De Febrero Y San Diego",
+            "stopLocation": {
+              "latitude": 20605397,
+              "longitude": -100418159
+            },
+            "stopCode": "368",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  5878333,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4651115,
+                  6908327,
+                  800163,
+                  4651127,
+                  4679957,
+                  8412662,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          }
+        ]
+      }
+    },
+    {
+      "result": {
+        "itinerary": {
+          "guid": "20250329DB568757C3B342C3A6EA6AAA6F5D6762:1",
+          "sectionId": 1,
+          "groupType": 1,
+          "groupKey": "1",
+          "legs": [
+            {
+              "waitToMultiLineLeg": {
+                "time": {
+                  "startTimeUtc": 1743247380000,
+                  "endTimeUtc": 1743247380000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743247380000,
+                  "staticEndTimeUtc": 1743247380000
+                },
+                "waitAtStopId": 38305041,
+                "departOnStopId": 38305917,
+                "multiLinesImage": {
+                  "imageId": -126,
+                  "parameters": [
+                    "0",
+                    "0",
+                    "292a30",
+                    "-61",
+                    "20",
+                    "",
+                    "",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "text",
+                    "0",
+                    "98",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "67",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "T-06",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "21",
+                    "292a30",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247380000,
+                      "endTimeUtc": 1743247380000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247380000,
+                      "staticEndTimeUtc": 1743247380000
+                    },
+                    "waitToLineId": 1099545,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894850,
+                          "tripId": 1164507099,
+                          "staticEtdUTC": 1743247380000,
+                          "isLastArrival": 0,
+                          "stopIndex": 18,
+                          "patternStopsSize": 46
+                        },
+                        {
+                          "patternId": 6894850,
+                          "tripId": 1164507070,
+                          "staticEtdUTC": 1743248280000,
+                          "isLastArrival": 0,
+                          "stopIndex": 18,
+                          "patternStopsSize": 46
+                        },
+                        {
+                          "patternId": 6894850,
+                          "tripId": 1164506981,
+                          "staticEtdUTC": 1743249180000,
+                          "isLastArrival": 0,
+                          "stopIndex": 18,
+                          "patternStopsSize": 46
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247380000,
+                      "endTimeUtc": 1743247440000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247380000,
+                      "staticEndTimeUtc": 1743247440000
+                    },
+                    "waitToLineId": 800231,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894920,
+                          "tripId": 1164498407,
+                          "staticEtdUTC": 1743247440000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 35
+                        },
+                        {
+                          "patternId": 6894920,
+                          "tripId": 1164498426,
+                          "staticEtdUTC": 1743249240000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 35
+                        },
+                        {
+                          "patternId": 6894920,
+                          "tripId": 1164498391,
+                          "staticEtdUTC": 1743251040000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 35
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247380000,
+                      "endTimeUtc": 1743248160000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247380000,
+                      "staticEndTimeUtc": 1743248160000
+                    },
+                    "waitToLineId": 8412662,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894876,
+                          "tripId": 1164496263,
+                          "staticEtdUTC": 1743248160000,
+                          "isLastArrival": 0,
+                          "stopIndex": 11,
+                          "patternStopsSize": 24
+                        },
+                        {
+                          "patternId": 6894876,
+                          "tripId": 1164496257,
+                          "staticEtdUTC": 1743249360000,
+                          "isLastArrival": 0,
+                          "stopIndex": 11,
+                          "patternStopsSize": 24
+                        },
+                        {
+                          "patternId": 6894876,
+                          "tripId": 1164496221,
+                          "staticEtdUTC": 1743250560000,
+                          "isLastArrival": 0,
+                          "stopIndex": 11,
+                          "patternStopsSize": 24
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247380000,
+                      "endTimeUtc": 1743248220000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247380000,
+                      "staticEndTimeUtc": 1743248220000
+                    },
+                    "waitToLineId": 4651114,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894885,
+                          "tripId": 1164517414,
+                          "staticEtdUTC": 1743248220000,
+                          "isLastArrival": 0,
+                          "stopIndex": 26,
+                          "patternStopsSize": 58
+                        },
+                        {
+                          "patternId": 6894885,
+                          "tripId": 1164517469,
+                          "staticEtdUTC": 1743249120000,
+                          "isLastArrival": 0,
+                          "stopIndex": 26,
+                          "patternStopsSize": 58
+                        },
+                        {
+                          "patternId": 6894885,
+                          "tripId": 1164517383,
+                          "staticEtdUTC": 1743250020000,
+                          "isLastArrival": 0,
+                          "stopIndex": 26,
+                          "patternStopsSize": 58
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  }
+                ],
+                "primaryAlternativeIndex": 0,
+                "metroId": 3143,
+                "waitAtChildStopId": 38305041,
+                "departOnChildStopId": 38305917
+              }
+            },
+            {
+              "lineWithAlternativesLeg": {
+                "alternativeLines": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247380000,
+                      "endTimeUtc": 1743248340000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247380000,
+                      "staticEndTimeUtc": 1743248340000
+                    },
+                    "lineId": 1099545,
+                    "stopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ],
+                    "shape": {
+                      "distanceInMeters": 6858.48412636015,
+                      "polyline": "o_~|Bvf~cRBAxW{JtI_DtBq@`KwCtDiA??zFeBfKkDhHeCrA]|LqDrJ}B`C_@??tB[~FmAnEw@~C]nImBjGkABPlCg@fYkFzBe@l@IxJkB??lx@eO??bDm@l@MBCAi@D?@F@DFJJFt@Oh@IHCn@MJClCg@JCz@OnCi@rGqAlE{@XI@DpHuAvAY`DkApBkABBpAy@zPkRvA}ArCeD"
+                    },
+                    "tripId": 1164507099,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247440000,
+                      "endTimeUtc": 1743248520000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247440000,
+                      "staticEndTimeUtc": 1743248520000
+                    },
+                    "lineId": 800231,
+                    "stopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ],
+                    "shape": {
+                      "distanceInMeters": 6858.48412636015,
+                      "polyline": "o_~|Bvf~cRBAxW{JtI_DtBq@`KwCtDiA??zFeBfKkDhHeCrA]|LqDrJ}B`C_@??tB[~FmAnEw@~C]nImBjGkABPlCg@fYkFzBe@l@IxJkB??lx@eO??bDm@l@MBCAi@D?@F@DFJJFt@Oh@IHCn@MJClCg@JCz@OnCi@rGqAlE{@XI@DpHuAvAY`DkApBkABBpAy@zPkRvA}ArCeD"
+                    },
+                    "tripId": 1164498407,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248160000,
+                      "endTimeUtc": 1743249480000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248160000,
+                      "staticEndTimeUtc": 1743249480000
+                    },
+                    "lineId": 8412662,
+                    "stopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ],
+                    "shape": {
+                      "distanceInMeters": 6858.48412636015,
+                      "polyline": "o_~|Bvf~cRBAxW{JtI_DtBq@`KwCtDiA??zFeBfKkDhHeCrA]|LqDrJ}B`C_@??tB[~FmAnEw@~C]nImBjGkABPlCg@fYkFzBe@l@IxJkB??lx@eO??bDm@l@MBCAi@D?@F@DFJJFt@Oh@IHCn@MJClCg@JCz@OnCi@rGqAlE{@XI@DpHuAvAY`DkApBkABBpAy@zPkRvA}ArCeD"
+                    },
+                    "tripId": 1164496263,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248220000,
+                      "endTimeUtc": 1743249660000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248220000,
+                      "staticEndTimeUtc": 1743249660000
+                    },
+                    "lineId": 4651114,
+                    "stopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ],
+                    "shape": {
+                      "distanceInMeters": 6858.48412636015,
+                      "polyline": "o_~|Bvf~cRBAxW{JtI_DtBq@`KwCtDiA??zFeBfKkDhHeCrA]|LqDrJ}B`C_@??tB[~FmAnEw@~C]nImBjGkABPlCg@fYkFzBe@l@IxJkB??lx@eO??bDm@l@MBCAi@D?@F@DFJJFt@Oh@IHCn@MJClCg@JCz@OnCi@rGqAlE{@XI@DpHuAvAY`DkApBkABBpAy@zPkRvA}ArCeD"
+                    },
+                    "tripId": 1164517414,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38305915,
+                      38305912,
+                      38305917
+                    ]
+                  }
+                ],
+                "primaryAlternativeIndex": 0
+              }
+            },
+            {
+              "waitToMultiLineLeg": {
+                "time": {
+                  "startTimeUtc": 1743248340000,
+                  "endTimeUtc": 1743248520000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743248340000,
+                  "staticEndTimeUtc": 1743248520000
+                },
+                "waitAtStopId": 38305917,
+                "departOnStopId": 38305753,
+                "multiLinesImage": {
+                  "imageId": -126,
+                  "parameters": [
+                    "0",
+                    "0",
+                    "292a30",
+                    "-61",
+                    "20",
+                    "",
+                    "",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "text",
+                    "0",
+                    "38",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "RUTA-40",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "T-04",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "T-03",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "RUTA-12",
+                    "292a30",
+                    "text",
+                    "0",
+                    " / ",
+                    "bdc3c7",
+                    "text",
+                    "0",
+                    "...",
+                    "292a30",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743248520000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743248520000
+                    },
+                    "waitToLineId": 800195,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894849,
+                          "tripId": 1164517773,
+                          "staticEtdUTC": 1743248520000,
+                          "isLastArrival": 0,
+                          "stopIndex": 7,
+                          "patternStopsSize": 35
+                        },
+                        {
+                          "patternId": 6894849,
+                          "tripId": 1164517806,
+                          "staticEtdUTC": 1743250320000,
+                          "isLastArrival": 0,
+                          "stopIndex": 7,
+                          "patternStopsSize": 35
+                        },
+                        {
+                          "patternId": 6894849,
+                          "tripId": 1164517831,
+                          "staticEtdUTC": 1743252120000,
+                          "isLastArrival": 0,
+                          "stopIndex": 7,
+                          "patternStopsSize": 35
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743248603000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743248603000
+                    },
+                    "waitToLineId": 6908328,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 9008381,
+                          "tripId": 2141562566,
+                          "staticEtdUTC": 1743248603000,
+                          "isLastArrival": 0,
+                          "stopIndex": 33,
+                          "patternStopsSize": 44
+                        },
+                        {
+                          "patternId": 9008381,
+                          "tripId": 2141562577,
+                          "staticEtdUTC": 1743249503000,
+                          "isLastArrival": 0,
+                          "stopIndex": 33,
+                          "patternStopsSize": 44
+                        },
+                        {
+                          "patternId": 9008381,
+                          "tripId": 2141562588,
+                          "staticEtdUTC": 1743250403000,
+                          "isLastArrival": 0,
+                          "stopIndex": 33,
+                          "patternStopsSize": 44
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743248616000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743248616000
+                    },
+                    "waitToLineId": 6908298,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 9008321,
+                          "tripId": 2141558909,
+                          "staticEtdUTC": 1743248616000,
+                          "isLastArrival": 0,
+                          "stopIndex": 33,
+                          "patternStopsSize": 52
+                        },
+                        {
+                          "patternId": 9008321,
+                          "tripId": 2141558920,
+                          "staticEtdUTC": 1743249516000,
+                          "isLastArrival": 0,
+                          "stopIndex": 33,
+                          "patternStopsSize": 52
+                        },
+                        {
+                          "patternId": 9008321,
+                          "tripId": 2141558931,
+                          "staticEtdUTC": 1743250416000,
+                          "isLastArrival": 0,
+                          "stopIndex": 33,
+                          "patternStopsSize": 52
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743248724000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743248724000
+                    },
+                    "waitToLineId": 6908297,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 9008334,
+                          "tripId": 2141560289,
+                          "staticEtdUTC": 1743248724000,
+                          "isLastArrival": 0,
+                          "stopIndex": 40,
+                          "patternStopsSize": 68
+                        },
+                        {
+                          "patternId": 9008334,
+                          "tripId": 2141560300,
+                          "staticEtdUTC": 1743249624000,
+                          "isLastArrival": 0,
+                          "stopIndex": 40,
+                          "patternStopsSize": 68
+                        },
+                        {
+                          "patternId": 9008334,
+                          "tripId": 2141560311,
+                          "staticEtdUTC": 1743250524000,
+                          "isLastArrival": 0,
+                          "stopIndex": 40,
+                          "patternStopsSize": 68
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743248724000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743248724000
+                    },
+                    "waitToLineId": 6908327,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 9008377,
+                          "tripId": 2141562359,
+                          "staticEtdUTC": 1743248724000,
+                          "isLastArrival": 0,
+                          "stopIndex": 39,
+                          "patternStopsSize": 52
+                        },
+                        {
+                          "patternId": 9008377,
+                          "tripId": 2141562370,
+                          "staticEtdUTC": 1743249624000,
+                          "isLastArrival": 0,
+                          "stopIndex": 39,
+                          "patternStopsSize": 52
+                        },
+                        {
+                          "patternId": 9008377,
+                          "tripId": 2141562381,
+                          "staticEtdUTC": 1743250524000,
+                          "isLastArrival": 0,
+                          "stopIndex": 39,
+                          "patternStopsSize": 52
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743249120000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743249120000
+                    },
+                    "waitToLineId": 4651154,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894929,
+                          "tripId": 1164502913,
+                          "staticEtdUTC": 1743249120000,
+                          "isLastArrival": 0,
+                          "stopIndex": 14,
+                          "patternStopsSize": 41
+                        },
+                        {
+                          "patternId": 6894929,
+                          "tripId": 1164502949,
+                          "staticEtdUTC": 1743250620000,
+                          "isLastArrival": 0,
+                          "stopIndex": 14,
+                          "patternStopsSize": 41
+                        },
+                        {
+                          "patternId": 6894929,
+                          "tripId": 1164502877,
+                          "staticEtdUTC": 1743252120000,
+                          "isLastArrival": 0,
+                          "stopIndex": 14,
+                          "patternStopsSize": 41
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743249780000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743249780000
+                    },
+                    "waitToLineId": 4651099,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894921,
+                          "tripId": 1164505407,
+                          "staticEtdUTC": 1743249780000,
+                          "isLastArrival": 0,
+                          "stopIndex": 19,
+                          "patternStopsSize": 44
+                        },
+                        {
+                          "patternId": 6894921,
+                          "tripId": 1164505427,
+                          "staticEtdUTC": 1743251580000,
+                          "isLastArrival": 0,
+                          "stopIndex": 19,
+                          "patternStopsSize": 44
+                        },
+                        {
+                          "patternId": 6894921,
+                          "tripId": 1164505442,
+                          "staticEtdUTC": 1743253380000,
+                          "isLastArrival": 0,
+                          "stopIndex": 19,
+                          "patternStopsSize": 44
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743249828000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743249828000
+                    },
+                    "waitToLineId": 8412657,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 13365349,
+                          "tripId": 3236979345,
+                          "staticEtdUTC": 1743249828000,
+                          "isLastArrival": 0,
+                          "stopIndex": 40,
+                          "patternStopsSize": 64
+                        },
+                        {
+                          "patternId": 13365349,
+                          "tripId": 3236979346,
+                          "staticEtdUTC": 1743251028000,
+                          "isLastArrival": 0,
+                          "stopIndex": 40,
+                          "patternStopsSize": 64
+                        },
+                        {
+                          "patternId": 13365349,
+                          "tripId": 3236979347,
+                          "staticEtdUTC": 1743252228000,
+                          "isLastArrival": 0,
+                          "stopIndex": 40,
+                          "patternStopsSize": 64
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248340000,
+                      "endTimeUtc": 1743250320000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248340000,
+                      "staticEndTimeUtc": 1743250320000
+                    },
+                    "waitToLineId": 800207,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894939,
+                          "tripId": 1164510746,
+                          "staticEtdUTC": 1743250320000,
+                          "isLastArrival": 0,
+                          "stopIndex": 57,
+                          "patternStopsSize": 75
+                        },
+                        {
+                          "patternId": 6894939,
+                          "tripId": 1164510757,
+                          "staticEtdUTC": 1743253020000,
+                          "isLastArrival": 0,
+                          "stopIndex": 57,
+                          "patternStopsSize": 75
+                        },
+                        {
+                          "patternId": 6894939,
+                          "tripId": 1164510741,
+                          "staticEtdUTC": 1743255720000,
+                          "isLastArrival": 0,
+                          "stopIndex": 57,
+                          "patternStopsSize": 75
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  }
+                ],
+                "primaryAlternativeIndex": 0,
+                "metroId": 3143,
+                "waitAtChildStopId": 38305917,
+                "departOnChildStopId": 38305753
+              }
+            },
+            {
+              "lineWithAlternativesLeg": {
+                "alternativeLines": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248520000,
+                      "endTimeUtc": 1743248640000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248520000,
+                      "staticEndTimeUtc": 1743248640000
+                    },
+                    "lineId": 800195,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 1164517773,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248603000,
+                      "endTimeUtc": 1743248700000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248603000,
+                      "staticEndTimeUtc": 1743248700000
+                    },
+                    "lineId": 6908328,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 2141562566,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248616000,
+                      "endTimeUtc": 1743248713000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248616000,
+                      "staticEndTimeUtc": 1743248713000
+                    },
+                    "lineId": 6908298,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 2141558909,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248724000,
+                      "endTimeUtc": 1743248821000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248724000,
+                      "staticEndTimeUtc": 1743248821000
+                    },
+                    "lineId": 6908297,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 2141560289,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743248724000,
+                      "endTimeUtc": 1743248821000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743248724000,
+                      "staticEndTimeUtc": 1743248821000
+                    },
+                    "lineId": 6908327,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 2141562359,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743249120000,
+                      "endTimeUtc": 1743249288000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743249120000,
+                      "staticEndTimeUtc": 1743249288000
+                    },
+                    "lineId": 4651154,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 1164502913,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743249780000,
+                      "endTimeUtc": 1743249960000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743249780000,
+                      "staticEndTimeUtc": 1743249960000
+                    },
+                    "lineId": 4651099,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 1164505407,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743249828000,
+                      "endTimeUtc": 1743249925000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743249828000,
+                      "staticEndTimeUtc": 1743249925000
+                    },
+                    "lineId": 8412657,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 3236979345,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  },
+                  {
+                    "time": {
+                      "startTimeUtc": 1743250320000,
+                      "endTimeUtc": 1743250500000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743250320000,
+                      "staticEndTimeUtc": 1743250500000
+                    },
+                    "lineId": 800207,
+                    "stopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ],
+                    "shape": {
+                      "distanceInMeters": 716.9171175281464,
+                      "polyline": "q|r|B`{ycRh@o@n@i@MYIS]q@YYqCkB??qBoA_B_Ae@m@MUSq@Cw@J{@??JgACu@MgAM]eA{B"
+                    },
+                    "tripId": 1164510746,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305917,
+                      38306034,
+                      45153320,
+                      38305753
+                    ]
+                  }
+                ],
+                "primaryAlternativeIndex": 0
+              }
+            },
+            {
+              "walkLeg": {
+                "time": {
+                  "startTimeUtc": 1743248640000,
+                  "endTimeUtc": 1743248736000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743248640000,
+                  "staticEndTimeUtc": 1743248736000
+                },
+                "journey": {
+                  "origin": {
+                    "id": 38305753,
+                    "latlon": {
+                      "latitude": 20584541,
+                      "longitude": -100402458
+                    },
+                    "type": 5,
+                    "metroId": 3143
+                  },
+                  "dest": {
+                    "caption": "La Comer Zaragoza Y Tecnologico",
+                    "id": 0,
+                    "latlon": {
+                      "latitude": 20585075,
+                      "longitude": -100401623
+                    },
+                    "type": 6,
+                    "metroId": 3143
+                  }
+                },
+                "shape": {
+                  "distanceInMeters": 123.31307983398438,
+                  "polyline": "kls|BjzxcRUe@GWCKGUa@LOm@Mg@"
+                },
+                "walkingInstructoins": [
+                  {
+                    "direction": {
+                      "relative": 1
+                    },
+                    "streetName": "Avenida Ignacio Zaragoza",
+                    "lengthInMeters": 123.31307983398438,
+                    "travelTimeInMs": 96000,
+                    "startLocation": {
+                      "latitude": 20584541,
+                      "longitude": -100402458
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "hasPrev": 0,
+          "hasNext": 1,
+          "relevantForRealtime": 0,
+          "isAccessible": 0,
+          "hasSecondaryArrivalItinerary": 0,
+          "sectionName": "Trayectos sugeridos",
+          "serverContext": "{\"sectionRequestId\":1,\"tripPlanProfile\":\"Fastest\",\"timeTargetTimestamp\":1743236451852,\"sectionId\":1}"
+        }
+      },
+      "supplementalData": {
+        "lineGroupSummaryList": [
+          {
+            "groupId": 135875222,
+            "lineNumber": "T-03",
+            "agencyId": 3751767,
+            "color": -1289190,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 6908296,
+                "destination": "Tecnológico Nacional De México Campus Querétaro",
+                "routeLongName": "Prados del Sol - Fracc. Vistana"
+              },
+              {
+                "lineId": 6908297,
+                "destination": "Villa Des Cimatario 1",
+                "routeLongName": "Prados del Sol - Fracc. Vistana"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Prados del Sol - Fracc. Vistana",
+            "caption2": "T-03 Prados del Sol - Fracc. Vistana",
+            "type": 1
+          },
+          {
+            "groupId": 135875238,
+            "lineNumber": "RUTA-40",
+            "agencyId": 3751768,
+            "color": -3254955,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 6908328,
+                "destination": "Zaragoza Y El Tanque",
+                "routeLongName": "Zaragoza y El Tanque - Sierra Nevada Y Chulavista"
+              },
+              {
+                "lineId": 6908329,
+                "destination": "Sierra Nevada Y Chulavista",
+                "routeLongName": "Zaragoza y El Tanque - Sierra Nevada Y Chulavista"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Zaragoza y El Tanque - Sierra Nevada Y Chulavista",
+            "caption2": "RUTA-40 Zaragoza y El Tanque - Sierra Nevada Y Chulavista",
+            "type": 1
+          },
+          {
+            "groupId": 135875223,
+            "lineNumber": "T-04",
+            "agencyId": 3751767,
+            "color": -1289190,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 6908298,
+                "destination": "Terminal De Autobues Taq",
+                "routeLongName": "Desarrollo Familiar - Terminal de Autobuses"
+              },
+              {
+                "lineId": 6908299,
+                "destination": "Ruben Jaramillo",
+                "routeLongName": "Desarrollo Familiar - Terminal de Autobuses"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Desarrollo Familiar - Terminal de Autobuses",
+            "caption2": "T-04 Desarrollo Familiar - Terminal de Autobuses",
+            "type": 1
+          },
+          {
+            "groupId": 281800,
+            "lineNumber": "50",
+            "agencyId": 854309,
+            "color": -5693405,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 800207,
+                "destination": "Mercado De La Cruz",
+                "routeLongName": "Mercado De La Cruz - Col 10 De Abril EVC"
+              },
+              {
+                "lineId": 1099522,
+                "destination": "Col 10 De Abril Evc",
+                "routeLongName": "Mercado De La Cruz - Col 10 De Abril EVC"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Mercado De La Cruz - Col 10 De Abril EVC",
+            "caption2": "50 Mercado De La Cruz - Col 10 De Abril EVC",
+            "type": 1
+          },
+          {
+            "groupId": 281831,
+            "lineNumber": "98",
+            "agencyId": 854309,
+            "color": -5824431,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 800269,
+                "destination": "Cerrito Colorado",
+                "routeLongName": "Cerrito Colorado - Boulevares Del Cimatario"
+              },
+              {
+                "lineId": 1099545,
+                "destination": "Boulevares Del Cimatario",
+                "routeLongName": "Cerrito Colorado - Boulevares Del Cimatario"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Cerrito Colorado - Boulevares Del Cimatario",
+            "caption2": "98 Cerrito Colorado - Boulevares Del Cimatario",
+            "type": 1
+          },
+          {
+            "groupId": 281812,
+            "lineNumber": "67",
+            "agencyId": 854309,
+            "color": -10403930,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 800231,
+                "destination": "Tanque",
+                "routeLongName": "Tanque - El Nabo"
+              },
+              {
+                "lineId": 4651132,
+                "destination": "El Nabo",
+                "routeLongName": "Tanque - El Nabo"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Tanque - El Nabo",
+            "caption2": "67 Tanque - El Nabo",
+            "type": 1
+          },
+          {
+            "groupId": 281785,
+            "lineNumber": "21",
+            "agencyId": 854309,
+            "color": -16745027,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 4651114,
+                "destination": "Bosques Del Cimatario",
+                "routeLongName": "Ciudad Del Sol - Bosques Del Cimatario"
+              },
+              {
+                "lineId": 4679932,
+                "destination": "Ciudad Del Sol",
+                "routeLongName": "Ciudad Del Sol - Bosques Del Cimatario"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Ciudad Del Sol - Bosques Del Cimatario",
+            "caption2": "21 Ciudad Del Sol - Bosques Del Cimatario",
+            "type": 1
+          },
+          {
+            "groupId": 135875237,
+            "lineNumber": "RUTA-12",
+            "agencyId": 3751768,
+            "color": -3254955,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 6908326,
+                "destination": "Tarahumaras Y José Luis Cuevas",
+                "routeLongName": "Tarahumaras Y José Luis Cuevas - Ejercito Republicano y Calzada de los arcos"
+              },
+              {
+                "lineId": 6908327,
+                "destination": "Ejercito Republicano Y Calzada De Los Arcos",
+                "routeLongName": "Tarahumaras Y José Luis Cuevas - Ejercito Republicano y Calzada de los arcos"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Tarahumaras Y José Luis Cuevas - Ejercito Republicano y Calzada de los arcos",
+            "caption2": "RUTA-12 Tarahumaras Y José Luis Cuevas - Ejercito Republicano y Calzada de los arcos",
+            "type": 1
+          },
+          {
+            "groupId": 281794,
+            "lineNumber": "38",
+            "agencyId": 854309,
+            "color": -16753750,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 800195,
+                "destination": "Rancho San Antonio",
+                "routeLongName": "Santa Maria Magdalena - Rancho San Antonio"
+              },
+              {
+                "lineId": 800196,
+                "destination": "Santa Maria Magdalena",
+                "routeLongName": "Santa Maria Magdalena - Rancho San Antonio"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Santa Maria Magdalena - Rancho San Antonio",
+            "caption2": "38 Santa Maria Magdalena - Rancho San Antonio",
+            "type": 1
+          },
+          {
+            "groupId": 231860463,
+            "lineNumber": "T-10",
+            "agencyId": 3751767,
+            "color": -1289190,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 8412656,
+                "destination": "Hacienda Mompani",
+                "routeLongName": "Hacienda Mompani - CRIQ"
+              },
+              {
+                "lineId": 8412657,
+                "destination": "CRIQ Querétaro",
+                "routeLongName": "Hacienda Mompani - CRIQ"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Hacienda Mompani - CRIQ",
+            "caption2": "T-10 Hacienda Mompani - CRIQ",
+            "type": 1
+          },
+          {
+            "groupId": 281803,
+            "lineNumber": "54",
+            "agencyId": 854309,
+            "color": -16777088,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 800213,
+                "destination": "El Tintero",
+                "routeLongName": "El Tintero - Boulevares Del Cimatario"
+              },
+              {
+                "lineId": 4651154,
+                "destination": "Boulevares Del Cimatario",
+                "routeLongName": "El Tintero - Boulevares Del Cimatario"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "El Tintero - Boulevares Del Cimatario",
+            "caption2": "54 El Tintero - Boulevares Del Cimatario",
+            "type": 1
+          },
+          {
+            "groupId": 231860466,
+            "lineNumber": "T-06",
+            "agencyId": 3751767,
+            "color": -1289190,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 8412662,
+                "destination": "Terminal De Autobuses Taq",
+                "routeLongName": "Terminal de Autobuses - Juncos"
+              },
+              {
+                "lineId": 8412663,
+                "destination": "Puertas De San Miguel",
+                "routeLongName": "Terminal de Autobuses - Juncos"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Terminal de Autobuses - Juncos",
+            "caption2": "T-06 Terminal de Autobuses - Juncos",
+            "type": 1
+          },
+          {
+            "groupId": 281804,
+            "lineNumber": "55",
+            "agencyId": 854309,
+            "color": -16753750,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 4651099,
+                "destination": "Socavon",
+                "routeLongName": "Socavon - Rancho Bellavista EVC"
+              },
+              {
+                "lineId": 4679959,
+                "destination": "Rancho Bellavista Evc",
+                "routeLongName": "Socavon - Rancho Bellavista EVC"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Socavon - Rancho Bellavista EVC",
+            "caption2": "55 Socavon - Rancho Bellavista EVC",
+            "type": 1
+          }
+        ],
+        "mVStopSyncedMetaDataList": [
+          {
+            "stopId": 38305912,
+            "stopName": "5 De Febrero Y Carretera A Tlacote",
+            "stopLocation": {
+              "latitude": 20586440,
+              "longitude": -100412433
+            },
+            "stopCode": "461",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  6908303,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  6908327,
+                  8412657,
+                  4651127,
+                  4679957,
+                  4651154,
+                  8412662,
+                  800283,
+                  4651130,
+                  4651099,
+                  4679961
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305753,
+            "stopName": "Prol. Zaragoza Y Tecnologico",
+            "stopLocation": {
+              "latitude": 20584405,
+              "longitude": -100402382
+            },
+            "stopCode": "57",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  6908335,
+                  4679937,
+                  800229,
+                  8909421,
+                  800231,
+                  4651114,
+                  6908327,
+                  6908294,
+                  800195,
+                  6908313,
+                  8412657,
+                  4679957,
+                  800286,
+                  4651154,
+                  6908316,
+                  6908306,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306747,
+            "stopName": "5 De Febrero Y Tremec",
+            "stopLocation": {
+              "latitude": 20629640,
+              "longitude": -100426060
+            },
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  8913645,
+                  8412662,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  800279,
+                  4651114,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305915,
+            "stopName": "5 De Febrero Y Cea",
+            "stopLocation": {
+              "latitude": 20589819,
+              "longitude": -100413758
+            },
+            "stopCode": "463",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  6908303,
+                  4679937,
+                  6908334,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  6908327,
+                  8412657,
+                  4651127,
+                  4679957,
+                  4651154,
+                  8412662,
+                  4651130,
+                  4651099,
+                  4679961
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305917,
+            "stopName": "5 De Febrero E Ignacio Zaragoza",
+            "stopLocation": {
+              "latitude": 20581982,
+              "longitude": -100407733
+            },
+            "stopCode": "467",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  6908303,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  6908327,
+                  800195,
+                  8412657,
+                  4679957,
+                  4651154,
+                  8412662,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305343,
+            "stopName": "5 De Febrero Y Carretera Al Campo Militar",
+            "stopLocation": {
+              "latitude": 20596208,
+              "longitude": -100415562
+            },
+            "stopCode": "373",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908328,
+                  800207,
+                  4679937,
+                  1099545,
+                  6908327,
+                  4679957,
+                  4651154,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4651099,
+                  4679961,
+                  4651160,
+                  6908297,
+                  6908298,
+                  5878333,
+                  6908301,
+                  6908303,
+                  8913647,
+                  800229,
+                  4651117,
+                  800231,
+                  4651114,
+                  800163,
+                  8412657,
+                  800253,
+                  4651127,
+                  8412662
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305344,
+            "stopName": "Av. 5 De Febrero Y Puente De Mabe",
+            "stopLocation": {
+              "latitude": 20613046,
+              "longitude": -100420319
+            },
+            "stopCode": "379",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  5878333,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4651115,
+                  6908327,
+                  800163,
+                  4651127,
+                  4679957,
+                  8412662,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 45153320,
+            "stopName": "Prol. Zaragoza Y Churubusco",
+            "stopLocation": {
+              "latitude": 20584031,
+              "longitude": -100404209
+            },
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  6908335,
+                  4679937,
+                  800229,
+                  800231,
+                  4651114,
+                  6908327,
+                  6908294,
+                  800195,
+                  6908313,
+                  8412657,
+                  4679957,
+                  800286,
+                  4651154,
+                  6908316,
+                  6908306,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305041,
+            "stopName": "Av. 5 De Febrero Y Corporativo Santander",
+            "stopLocation": {
+              "latitude": 20638763,
+              "longitude": -100430121
+            },
+            "stopCode": "731",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  5878333,
+                  8412662,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305073,
+            "stopName": "5 De Febrero Y Coahuila",
+            "stopLocation": {
+              "latitude": 20619794,
+              "longitude": -100422152
+            },
+            "stopCode": "322",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908329,
+                  1099538,
+                  8913644,
+                  5878333,
+                  6908300,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800198,
+                  4651116,
+                  800231,
+                  4651114,
+                  6908326,
+                  4679955,
+                  8412662,
+                  800209,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306034,
+            "stopName": "Ignacio Zaragoza Y 5 De Febrero",
+            "stopLocation": {
+              "latitude": 20582661,
+              "longitude": -100406045
+            },
+            "stopCode": "53",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  6908298,
+                  800207,
+                  5878333,
+                  4679937,
+                  800229,
+                  8909421,
+                  800231,
+                  4651114,
+                  6908327,
+                  6908294,
+                  800195,
+                  4623817,
+                  8412657,
+                  4679957,
+                  800286,
+                  4651154,
+                  6908306,
+                  4651130,
+                  4651099
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306166,
+            "stopName": "5 De Febrero Y San Diego",
+            "stopLocation": {
+              "latitude": 20605397,
+              "longitude": -100418159
+            },
+            "stopCode": "368",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  5878333,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4651115,
+                  6908327,
+                  800163,
+                  4651127,
+                  4679957,
+                  8412662,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          }
+        ]
+      }
+    },
+    {
+      "result": {
+        "itinerary": {
+          "guid": "20250329DB568757C3B342C3A6EA6AAA6F5D6762:2",
+          "sectionId": 1,
+          "groupType": 1,
+          "groupKey": "1",
+          "legs": [
+            {
+              "waitToMultiLineLeg": {
+                "time": {
+                  "startTimeUtc": 1743247860000,
+                  "endTimeUtc": 1743247860000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743247860000,
+                  "staticEndTimeUtc": 1743247860000
+                },
+                "waitAtStopId": 38305041,
+                "departOnStopId": 38306612,
+                "multiLinesImage": {
+                  "imageId": -126,
+                  "parameters": [
+                    "0",
+                    "0",
+                    "ff005baa",
+                    "-61",
+                    "20",
+                    "",
+                    "",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "text",
+                    "0",
+                    "121",
+                    "292a30",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247860000,
+                      "endTimeUtc": 1743247860000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247860000,
+                      "staticEndTimeUtc": 1743247860000
+                    },
+                    "waitToLineId": 4651160,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 9008289,
+                          "tripId": 1164505609,
+                          "staticEtdUTC": 1743247860000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 39
+                        },
+                        {
+                          "patternId": 9008289,
+                          "tripId": 1164505613,
+                          "staticEtdUTC": 1743249360000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 39
+                        },
+                        {
+                          "patternId": 9008289,
+                          "tripId": 1164505628,
+                          "staticEtdUTC": 1743250860000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 39
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  }
+                ],
+                "primaryAlternativeIndex": 0,
+                "metroId": 3143,
+                "waitAtChildStopId": 38305041,
+                "departOnChildStopId": 38306612
+              }
+            },
+            {
+              "lineWithAlternativesLeg": {
+                "alternativeLines": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743247860000,
+                      "endTimeUtc": 1743249120000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743247860000,
+                      "staticEndTimeUtc": 1743249120000
+                    },
+                    "lineId": 4651160,
+                    "stopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38306148,
+                      38305905,
+                      38305908,
+                      45153348,
+                      38305845,
+                      38305787,
+                      38305796,
+                      38305525,
+                      38305736,
+                      38306617,
+                      38306612
+                    ],
+                    "shape": {
+                      "distanceInMeters": 9137.147375186742,
+                      "polyline": "o_~|Bvf~cRBAxW{JtI_DtBq@`KwCtDiA??zFeBfKkDhHeCrA]|LqDrJ}B`C_@??tB[~FmAnEw@~C]nImBjGkABPlCg@fYkFzBe@l@IxJkB??lx@eOAEzDw@t@KjDq@hAUFM?UEQYQcGjACqB??Am@FY`@k@f@]uEsG]}@COC}A??UmLFi@Jg@j@}Ax@gDD[???m@Ee@Au@e@qJ??Ce@SkEGy@AaEAsA?QCS[qBW_BOo@??Ma@eAmB~D{@??fRyDd@M??zEiAvGuA??rH}AdCm@@L|GqAvQaDRg@?Ec@_A??q@qAW{@mBcHkA{E"
+                    },
+                    "tripId": 1164505609,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38305041,
+                      38306747,
+                      38305073,
+                      38305344,
+                      38306166,
+                      38305343,
+                      38306148,
+                      38305905,
+                      38305908,
+                      45153348,
+                      38305845,
+                      38305787,
+                      38305796,
+                      38305525,
+                      38305736,
+                      38306617,
+                      38306612
+                    ]
+                  }
+                ],
+                "primaryAlternativeIndex": 0
+              }
+            },
+            {
+              "waitToMultiLineLeg": {
+                "time": {
+                  "startTimeUtc": 1743249120000,
+                  "endTimeUtc": 1743249180000,
+                  "isRealTime": 0,
+                  "staticStartTimeUtc": 1743249120000,
+                  "staticEndTimeUtc": 1743249180000
+                },
+                "waitAtStopId": 38306612,
+                "departOnStopId": 38305982,
+                "multiLinesImage": {
+                  "imageId": -126,
+                  "parameters": [
+                    "0",
+                    "0",
+                    "ff005baa",
+                    "-61",
+                    "20",
+                    "",
+                    "",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "text",
+                    "0",
+                    "19",
+                    "292a30",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000",
+                    "image",
+                    "0",
+                    "",
+                    "00000000"
+                  ]
+                },
+                "alternatives": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743249120000,
+                      "endTimeUtc": 1743249180000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743249120000,
+                      "staticEndTimeUtc": 1743249180000
+                    },
+                    "waitToLineId": 800173,
+                    "futureDepartureTimes": {
+                      "epochDay": 20176,
+                      "futureDepartures": [
+                        {
+                          "patternId": 6894877,
+                          "tripId": 1164518240,
+                          "staticEtdUTC": 1743249180000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 44
+                        },
+                        {
+                          "patternId": 6894877,
+                          "tripId": 1164518247,
+                          "staticEtdUTC": 1743250980000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 44
+                        },
+                        {
+                          "patternId": 6894877,
+                          "tripId": 1164518251,
+                          "staticEtdUTC": 1743252780000,
+                          "isLastArrival": 0,
+                          "stopIndex": 16,
+                          "patternStopsSize": 44
+                        }
+                      ]
+                    },
+                    "waitOnVehicle": 0
+                  }
+                ],
+                "primaryAlternativeIndex": 0,
+                "metroId": 3143,
+                "waitAtChildStopId": 38306612,
+                "departOnChildStopId": 38305982
+              }
+            },
+            {
+              "lineWithAlternativesLeg": {
+                "alternativeLines": [
+                  {
+                    "time": {
+                      "startTimeUtc": 1743249180000,
+                      "endTimeUtc": 1743249360000,
+                      "isRealTime": 0,
+                      "staticStartTimeUtc": 1743249180000,
+                      "staticEndTimeUtc": 1743249360000
+                    },
+                    "lineId": 800173,
+                    "stopSequenceIds": [
+                      38306612,
+                      38305982
+                    ],
+                    "shape": {
+                      "distanceInMeters": 1299.8687664516315,
+                      "polyline": "}ns|BvxvcRLf@dC`J_AZyK`DgCp@?DhH|ZjClK"
+                    },
+                    "tripId": 1164518240,
+                    "metroId": 3143,
+                    "childStopSequenceIds": [
+                      38306612,
+                      38305982
+                    ]
+                  }
+                ],
+                "primaryAlternativeIndex": 0
+              }
+            }
+          ],
+          "hasPrev": 0,
+          "hasNext": 1,
+          "relevantForRealtime": 0,
+          "isAccessible": 0,
+          "hasSecondaryArrivalItinerary": 0,
+          "sectionName": "Trayectos sugeridos",
+          "serverContext": "{\"sectionRequestId\":1,\"tripPlanProfile\":\"Fastest\",\"timeTargetTimestamp\":1743236451852,\"sectionId\":1}"
+        }
+      },
+      "supplementalData": {
+        "lineGroupSummaryList": [
+          {
+            "groupId": 281783,
+            "lineNumber": "19",
+            "agencyId": 854309,
+            "color": -16753750,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 800173,
+                "destination": "Col Fray Junipero Serra",
+                "routeLongName": "Col Fray Junipero Serra - Terminal De Autobuses Taq"
+              },
+              {
+                "lineId": 1099508,
+                "destination": "Terminal De Autobuses Taq",
+                "routeLongName": "Col Fray Junipero Serra - Terminal De Autobuses Taq"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Col Fray Junipero Serra - Terminal De Autobuses Taq",
+            "caption2": "19 Col Fray Junipero Serra - Terminal De Autobuses Taq",
+            "type": 1
+          },
+          {
+            "groupId": 281837,
+            "lineNumber": "121",
+            "agencyId": 854309,
+            "color": -16753750,
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 4,
+                  "imageRef": -20
+                },
+                {
+                  "index": 2,
+                  "imageRef": -19
+                },
+                {
+                  "index": 3,
+                  "imageRef": -20
+                }
+              ]
+            },
+            "lineSummaries": [
+              {
+                "lineId": 4651160,
+                "destination": "Terminal De Autobuses Taq",
+                "routeLongName": "Terminal De Autobuses Taq - Parque"
+              },
+              {
+                "lineId": 4679931,
+                "destination": "Parque",
+                "routeLongName": "Terminal De Autobuses Taq - Parque"
+              }
+            ],
+            "innerImageIds": {
+              "images": [
+                {
+                  "index": 4,
+                  "image": -61
+                },
+                {
+                  "index": 3,
+                  "image": -61
+                }
+              ]
+            },
+            "caption1": "Terminal De Autobuses Taq - Parque",
+            "caption2": "121 Terminal De Autobuses Taq - Parque",
+            "type": 1
+          }
+        ],
+        "mVStopSyncedMetaDataList": [
+          {
+            "stopId": 38305736,
+            "stopName": "Ezequiel Montes Y José Ma. Arteaga",
+            "stopLocation": {
+              "latitude": 20587789,
+              "longitude": -100396923
+            },
+            "stopCode": "182",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  4679943,
+                  6908330,
+                  1099508,
+                  6908323,
+                  6908324,
+                  4651115,
+                  800226,
+                  1099520,
+                  800284,
+                  6908314,
+                  4679953,
+                  8909424,
+                  6908304,
+                  6908336,
+                  6908308,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305344,
+            "stopName": "Av. 5 De Febrero Y Puente De Mabe",
+            "stopLocation": {
+              "latitude": 20613046,
+              "longitude": -100420319
+            },
+            "stopCode": "379",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  5878333,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4651115,
+                  6908327,
+                  800163,
+                  4651127,
+                  4679957,
+                  8412662,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306148,
+            "stopName": "Rio Ayutla Y Plaza De Los Mariachis 5 De Febrero",
+            "stopLocation": {
+              "latitude": 20595150,
+              "longitude": -100414251
+            },
+            "stopCode": "374",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  4679926,
+                  800253,
+                  800185,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4651160,
+                  800163
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305796,
+            "stopName": "Ezequiel Montes Y Miguel Hidalgo",
+            "stopLocation": {
+              "latitude": 20592489,
+              "longitude": -100398443
+            },
+            "stopCode": "180",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  4679943,
+                  6908330,
+                  1099508,
+                  6908323,
+                  6908324,
+                  4651115,
+                  800284,
+                  6908314,
+                  4679955,
+                  4679953,
+                  8909424,
+                  6908304,
+                  6908336,
+                  6908308,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306617,
+            "stopName": "Ezequiel Montes",
+            "stopLocation": {
+              "latitude": 20583572,
+              "longitude": -100395227
+            },
+            "stopCode": "14216839",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  800285,
+                  800286,
+                  8412660,
+                  6908307,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306747,
+            "stopName": "5 De Febrero Y Tremec",
+            "stopLocation": {
+              "latitude": 20629640,
+              "longitude": -100426060
+            },
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  8913645,
+                  8412662,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  800279,
+                  4651114,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305787,
+            "stopName": "Ezequiel Montes Y Mariano Escobedo",
+            "stopLocation": {
+              "latitude": 20595762,
+              "longitude": -100399438
+            },
+            "stopCode": "187",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  4679943,
+                  6908330,
+                  1099508,
+                  4679939,
+                  4679947,
+                  6908324,
+                  4651115,
+                  800226,
+                  1099520,
+                  800284,
+                  6908314,
+                  4679955,
+                  4679953,
+                  8909424,
+                  6908304,
+                  6908336,
+                  6908308,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 45153348,
+            "stopName": "Av. Universidad Y El Tecnologico De Queretaro",
+            "stopLocation": {
+              "latitude": 20595752,
+              "longitude": -100404735
+            },
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  800173,
+                  800202,
+                  8909423,
+                  6908324,
+                  4623817,
+                  800284,
+                  4679926,
+                  4651127,
+                  6908315,
+                  800185,
+                  4679953,
+                  6908305,
+                  1099528,
+                  4651103,
+                  6908336,
+                  6908309,
+                  1099532,
+                  800209,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305982,
+            "stopName": "La Comer Zaragoza Y Tecnologico",
+            "stopLocation": {
+              "latitude": 20585075,
+              "longitude": -100401623
+            },
+            "stopCode": "19",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908329,
+                  1099537,
+                  6908331,
+                  4679940,
+                  800202,
+                  6908334,
+                  800196,
+                  800198,
+                  6908322,
+                  6908325,
+                  6908326,
+                  1099522,
+                  4679955,
+                  4623827,
+                  800219,
+                  800283,
+                  6908337,
+                  4651103,
+                  800213,
+                  800278,
+                  800209,
+                  6908296,
+                  800173,
+                  6908299,
+                  8909423,
+                  8909422,
+                  800230,
+                  1099516,
+                  6908295,
+                  800226,
+                  1099519,
+                  8412656,
+                  6908312,
+                  6908315,
+                  6908317,
+                  6908304,
+                  4651132,
+                  4679932,
+                  6908309,
+                  4679931,
+                  5878311
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305343,
+            "stopName": "5 De Febrero Y Carretera Al Campo Militar",
+            "stopLocation": {
+              "latitude": 20596208,
+              "longitude": -100415562
+            },
+            "stopCode": "373",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908328,
+                  800207,
+                  4679937,
+                  1099545,
+                  6908327,
+                  4679957,
+                  4651154,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4651099,
+                  4679961,
+                  4651160,
+                  6908297,
+                  6908298,
+                  5878333,
+                  6908301,
+                  6908303,
+                  8913647,
+                  800229,
+                  4651117,
+                  800231,
+                  4651114,
+                  800163,
+                  8412657,
+                  800253,
+                  4651127,
+                  8412662
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305041,
+            "stopName": "Av. 5 De Febrero Y Corporativo Santander",
+            "stopLocation": {
+              "latitude": 20638763,
+              "longitude": -100430121
+            },
+            "stopCode": "731",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  5878333,
+                  8412662,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305073,
+            "stopName": "5 De Febrero Y Coahuila",
+            "stopLocation": {
+              "latitude": 20619794,
+              "longitude": -100422152
+            },
+            "stopCode": "322",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908329,
+                  1099538,
+                  8913644,
+                  5878333,
+                  6908300,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800198,
+                  4651116,
+                  800231,
+                  4651114,
+                  6908326,
+                  4679955,
+                  8412662,
+                  800209,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305905,
+            "stopName": "Rio Ayutla E Ilustres",
+            "stopLocation": {
+              "latitude": 20595983,
+              "longitude": -100411282
+            },
+            "stopCode": "854",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  4679926,
+                  800253,
+                  800185,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306612,
+            "stopName": "Escobedo",
+            "stopLocation": {
+              "latitude": 20584713,
+              "longitude": -100391864
+            },
+            "stopCode": "14216834",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  800173,
+                  800285,
+                  800286,
+                  8412661,
+                  6908306,
+                  4679931,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305908,
+            "stopName": "Rio Ayutla Y Tecnologico",
+            "stopLocation": {
+              "latitude": 20595450,
+              "longitude": -100407283
+            },
+            "stopCode": "855",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  4679926,
+                  800253,
+                  800185,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305845,
+            "stopName": "Universidad Y Ezequiel Montes",
+            "stopLocation": {
+              "latitude": 20596283,
+              "longitude": -100400351
+            },
+            "stopCode": "127",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  800173,
+                  800202,
+                  8909423,
+                  6908324,
+                  4623817,
+                  800284,
+                  4679926,
+                  800253,
+                  4651127,
+                  6908315,
+                  800185,
+                  4679953,
+                  6908305,
+                  1099528,
+                  4651103,
+                  6908336,
+                  6908309,
+                  1099532,
+                  800209,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38305525,
+            "stopName": "Ezequiel Montes Y Francisco I Madero",
+            "stopLocation": {
+              "latitude": 20589999,
+              "longitude": -100397617
+            },
+            "stopCode": "178",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  4679943,
+                  6908330,
+                  1099508,
+                  4679939,
+                  6908323,
+                  6908324,
+                  4651115,
+                  800226,
+                  1099520,
+                  800284,
+                  6908314,
+                  4679955,
+                  4679953,
+                  8909424,
+                  6908304,
+                  6908336,
+                  6908308,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          },
+          {
+            "stopId": 38306166,
+            "stopName": "5 De Febrero Y San Diego",
+            "stopLocation": {
+              "latitude": 20605397,
+              "longitude": -100418159
+            },
+            "stopCode": "368",
+            "image": {
+              "imageId": -53,
+              "parameters": []
+            },
+            "platformLines": [
+              {
+                "lineIds": [
+                  6908297,
+                  6908328,
+                  5878333,
+                  6908303,
+                  8913646,
+                  4679937,
+                  800229,
+                  1099545,
+                  800231,
+                  4651114,
+                  4651115,
+                  6908327,
+                  800163,
+                  4651127,
+                  4679957,
+                  8412662,
+                  4679953,
+                  6908336,
+                  1099532,
+                  4679961,
+                  4651160
+                ]
+              }
+            ],
+            "keyLineIds": [],
+            "sitesList": [],
+            "imageRefSet": {
+              "images": [
+                {
+                  "index": 1800,
+                  "imageRef": {
+                    "imageId": -2,
+                    "parameters": []
+                  }
+                },
+                {
+                  "index": 1750,
+                  "imageRef": {
+                    "imageId": -1,
+                    "parameters": []
+                  }
+                }
+              ]
+            },
+            "routeType": 3,
+            "wheelchairAccessible": 0,
+            "timeZone": "America/Mexico_City"
+          }
+        ]
+      }
+    }
+  ],
+  "completed": 1
+}

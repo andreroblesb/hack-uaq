@@ -7,10 +7,8 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 from google.genai import types
 
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
-
-def handle_interaction(user_input, origin, destination, history, bus_stations):
-    system_instruction = """
+def handle_interaction(user_input, origin, destination, history, bus_stations, client):
+    SYSTEM_INSTRUCTION = """
     Eres un asistente virtual de la app QroBus. Vas a interactuar en español, y tienes que estar preparado para interpretar español mexicano coloquial. 
     
     Cuando un dato está faltante, se expresa con "Nan".
@@ -22,7 +20,7 @@ def handle_interaction(user_input, origin, destination, history, bus_stations):
     # Aquí parseas el texto para ver si hay origen/destino
     if origin == "Nan" or destination == "Nan" or origin is None or destination is None:
         print("hasta aqui llega")
-        extracted_text = extract_location_from_text(user_input, bus_stations)
+        extracted_text = extract_location_from_text(user_input, bus_stations, client)
 
         # Extrae origen y destino del texto
         try:
@@ -33,37 +31,16 @@ def handle_interaction(user_input, origin, destination, history, bus_stations):
         except IndexError:
             origin = None
             destination = None
-            
-    response = f"""
-    Dado que el origen hasta el momento es {origin} y el destino es {destination}:
     
-    Si ambos son "Nan", regresa un mensaje preguntando por ambos.
+    response_text = answer_user(origin, destination, SYSTEM_INSTRUCTION, client)
     
-    Si los dos son válidos, tu trabajo termino, regresa un mensaje que diga que se ha registrado el origen y el destino.
-    
-    Si solo uno es válido, regresa un mensaje que diga que se ha registrado el origen o el destino, y que se está faltando el otro. Pregunta por el que falta.
-    
-    Los mensajes de regreso deben ser cortos, concisos y amables.
-    """
-
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=response,
-        config=types.GenerateContentConfig(
-            max_output_tokens=300,
-            temperature=0.5,
-            system_instruction=system_instruction
-        )
-    )
-    
-    response_text = response.text
     history.append({"role": "model", "parts": [response_text]})
-    
     print("llevamos aqui", origin, "|", destination)
 
     return origin, destination, response_text, history
 
-def extract_location_from_text(text, bus_stations):
+
+def extract_location_from_text(text, bus_stations, client):
     station_list = "\n".join(f"- {station}" for station in bus_stations)
     prompt = f"""
     Tarea: Extraer ubicacion de un texto escrito por un usuario. Tu único objetivo es extrar la ubicación de origen o destino de acuerdo a la lista de líneas de autobús. Regresa en <ubicacion> el nombre en la lista de estaciones de autobus. No regreses una ubicacion que no esté en la lista.
@@ -90,4 +67,27 @@ def extract_location_from_text(text, bus_stations):
     print("LA RESPUESTA extraida en esta iteracion:", response.text)
     
     return response.text
+
+def answer_user(origin, destination, system_instruction, client):
+    if origin == "Nan" or origin is None and destination == "Nan" or destination is None:
+        prompt = f"Debes pedir al usuario que provea el origen y el destino de su viaje. Usa un todo amable y conciso."
+    elif origin != "Nan" and origin is not None and destination != "Nan" and destination is not None:
+        prompt = f"El origen y el destino han sido registrados. Indícaselo al usuario en un tono amable y conciso. Dile además que se están buscando las mejores rutas."
     
+    else:
+        if destination == "Nan" or destination is None:
+            prompt = f"Debes pedir al usuario que provea el destino de su viaje. Usa un todo amable y conciso."
+        else:
+            prompt = f"Debes pedir al usuario que provea el origen de su viaje. Usa un todo amable y conciso."
+
+    response = client.models.generate_content(
+        model="gemini-2.0-flash",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            max_output_tokens=300,
+            temperature=0.5,
+            system_instruction=system_instruction
+        )
+    )
+    
+    return response.text

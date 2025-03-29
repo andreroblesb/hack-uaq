@@ -19,7 +19,8 @@ from django.urls import path
 from app.views import weather_report, chatbot
 
 urlpatterns = [
+    # provisional
     path('weather-report/', view=weather_report, name='weather_report'),
     # provisional
-    path('chatbot/', view=chatbot, name='chatbot')
+    path('chatbot/', view=chatbot, name='chatbot'),
 ]

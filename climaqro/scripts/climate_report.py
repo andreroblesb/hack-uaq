@@ -7,13 +7,9 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 from google.genai import types
 
-# 
-
 load_dotenv()
 
-
-def include_climate_in_time_estimated(weather_context, city_name, origin, destination, hour):
-    client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+def include_climate_in_time_estimated(weather_context, city_name, origin, destination, client, hour):
 
     prompt_recomendaciones = f"""
     Tarea recomendaciones:
