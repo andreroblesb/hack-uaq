@@ -29,46 +29,19 @@ def chatbot(request):
         country_code = None
         
         # try to predict even before user input
+        # agregarle ubicacion actual consulta
         if user_input == "Ir a casa":
             home_work = get_home_work_locations()
-            home = home_work['home']
-            work = None
+            destination = home_work['home']
         elif user_input == "Ir a trabajo":
             home_work = get_home_work_locations()
-            work = home_work['work']
-            home = None
-            
+            destination = home_work['work']
+           
 
         origin = request.session.get('origin')
         destination = request.session.get('destination')
         history = request.session.get('history', [])
         
-        # If origin/destination not set, try to get from location history
-        if (origin is None or destination is None) and 'location_used' not in request.session:
-            common_routes = get_most_common_routes()
-            if common_routes:
-                most_common_route = common_routes[0]  # Get the most frequent route
-                
-                # Only use if we don't already have values
-                if origin is None:
-                    # Find closest bus station to origin
-                    bus_stations = [
-                        "Av. Candiles y Plaza Candiles",
-                        "Juan N. Frias",
-                        "Juan penurias",
-                        "Tejeda"
-                    ]
-                    
-                    # For now, just assign Tejeda if activity is home/still
-                    if most_common_route['origin']['activity'] in ['STILL', 'HOME']:
-                        origin = "Tejeda"
-                    
-                if destination is None:
-                    # Simple logic - if activity involves vehicle or walking, assign destination
-                    if most_common_route['destination']['activity'] in ['IN_VEHICLE', 'WALKING']:
-                        destination = "Juan N. Frias"
-                        
-                request.session['location_used'] = True
         
         bus_stations = [
             "Av. Candiles y Plaza Candiles",

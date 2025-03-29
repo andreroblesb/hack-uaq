@@ -7,7 +7,6 @@ from typing import List, Tuple, Dict, Any
 
 # calculate probable work and home location to improve interaction
 # P.D para un futuro que filtre los mas comunes que sean redundantes
-
 def load_location_history(file_path: str) -> List[Dict[str, Any]]:
     """Load location history from a JSON file."""
     try:
