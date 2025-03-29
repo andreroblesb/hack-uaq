@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ClimaQRO Chatbot</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .chat-container {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        min-height: 300px;
+      }
+      .message-container {
+        margin-bottom: 20px;
+        max-height: 400px;
+        overflow-y: auto;
+      }
+      .user-message {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 18px;
+        margin: 5px 0;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: 10px;
+      }
+      .bot-message {
+        background-color: #e9e9e9;
+        padding: 10px 15px;
+        border-radius: 18px;
+        margin: 5px 0;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: 10px;
+      }
+      .input-container {
+        display: flex;
+        margin-top: 15px;
+      }
+      #user-input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+      #send-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      #send-button:hover {
+        background-color: #0056b3;
+      }
+      .route-info {
+        background-color: #e3f2fd;
+        padding: 10px 15px;
+        border-radius: 8px;
+        margin: 10px 0;
+        border-left: 4px solid #007bff;
+      }
+      .route-info h3 {
+        margin-top: 0;
+        color: #0056b3;
+      }
+      .route-info p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ClimaQRO Chatbot</h1>
+    <div class="chat-container">
+      <div id="message-container" class="message-container">
+        <div class="bot-message">Hola, ¿en qué puedo ayudarte hoy?</div>
+      </div>
+      
+      <!-- Añadimos la sección de ruta -->
+      <div id="route-info" class="route-info" style="display: none;">
+        <h3>Ruta actual</h3>
+        <p><strong>Origen:</strong> <span id="origin-value">No definido</span></p>
+        <p><strong>Destino:</strong> <span id="destination-value">No definido</span></p>
+      </div>
+      
+      <div class="input-container">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Escribe tu mensaje aquí"
+        />
+        <button id="send-button">Enviar</button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const messageContainer = document.getElementById("message-container");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+        const routeInfo = document.getElementById("route-info");
+        const originValue = document.getElementById("origin-value");
+        const destinationValue = document.getElementById("destination-value");
+        
+        // Function to check session for origin and destination
+        async function checkSession() {
+          try {
+            const response = await fetch("/get_session_data/", {
+              method: "GET",
+              credentials: "include",
+            });
+            
+            if (response.ok) {
+              const data = await response.json();
+              
+              if (data.origin || data.destination) {
+                // Actualizar el panel de información de ruta
+                originValue.textContent = data.origin || "No definido";
+                destinationValue.textContent = data.destination || "No definido";
+                routeInfo.style.display = "block";
+              }
+            }
+          } catch (error) {
+            console.error("Error checking session:", error);
+          }
+        }
+        
+        // Verificar si hay datos de sesión al cargar la página
+        checkSession();
+
+        // Function to add a message to the chat
+        function addMessage(text, isUser) {
+          const messageDiv = document.createElement("div");
+          messageDiv.className = isUser ? "user-message" : "bot-message";
+          messageDiv.textContent = text;
+          messageContainer.appendChild(messageDiv);
+          messageContainer.scrollTop = messageContainer.scrollHeight;
+        }
+
+        // Function to send message to the server
+        async function sendMessage() {
+          const userMessage = userInput.value.trim();
+          if (userMessage === "") return;
+
+          // Add user message to chat
+          addMessage(userMessage, true);
+          userInput.value = "";
+
+          // Create form data
+          const formData = new FormData();
+          formData.append("user_input", userMessage);
+
+          try {
+            // Send request to server
+            const response = await fetch("/chatbot/", {
+              method: "POST",
+              body: formData,
+              credentials: "include",
+            });
+
+            if (response.ok) {
+              const data = await response.json();
+              // Add bot response to chat
+              addMessage(data.response, false);
+              
+              // Actualizar el panel de información de ruta si hay origen o destino
+              if (data.origin || data.destination) {
+                originValue.textContent = data.origin || "No definido";
+                destinationValue.textContent = data.destination || "No definido";
+                routeInfo.style.display = "block";
+              }
+            } else {
+              addMessage(
+                "Lo siento, ocurrió un error al procesar tu mensaje.",
+                false
+              );
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            addMessage(
+              "Error de conexión. Por favor intenta nuevamente.",
+              false
+            );
+          }
+        }
+
+        // Event listeners
+        sendButton.addEventListener("click", sendMessage);
+        userInput.addEventListener("keypress", (e) => {
+          if (e.key === "Enter") {
+            sendMessage();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

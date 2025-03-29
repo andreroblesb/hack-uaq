@@ -1,0 +1,124 @@
+{
+  "locations": [
+    {
+      "timestampMs": "1679837523456",
+      "latitudeE7": 20.544075536975374, // Parque Tejeda
+      "longitudeE7": -100.42053672028841,
+      "accuracy": 10,
+      "activity": [
+        {
+          "timestampMs": "1679837530000",
+          "activities": [{ "type": "WALKING", "confidence": 95 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679837623456",
+      "latitudeE7": 20.553838285013565, // Laboratorio chopo
+      "longitudeE7": -100.41090667783766,
+      "accuracy": 12,
+      "activity": [
+        {
+          "timestampMs": "1679837630000",
+          "activities": [{ "type": "IN_VEHICLE", "confidence": 90 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679837723456",
+      "latitudeE7": 20.617671671905843, // empresalia
+      "longitudeE7": -100.42269065126584,
+      "accuracy": 8,
+      "activity": [
+        {
+          "timestampMs": "1679837730000",
+          "activities": [{ "type": "STILL", "confidence": 98 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679837823456",
+      "latitudeE7": 20.544075536975374, // Parque Tejeda
+      "longitudeE7": -100.42053672028841,
+      "accuracy": 15,
+      "activity": [
+        {
+          "timestampMs": "1679837830000",
+          "activities": [{ "type": "WALKING", "confidence": 92 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679837923456",
+      "latitudeE7": 20.614855143136616, // costco lol
+      "longitudeE7": -100.39400753558355,
+      "accuracy": 10,
+      "activity": [
+        {
+          "timestampMs": "1679837930000",
+          "activities": [{ "type": "IN_VEHICLE", "confidence": 95 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679838023456",
+      "latitudeE7": 20.617671671905843, // empresalia
+      "longitudeE7": -100.42269065126584,
+      "accuracy": 9,
+      "activity": [
+        {
+          "timestampMs": "1679838030000",
+          "activities": [{ "type": "STILL", "confidence": 97 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679838123456",
+      "latitudeE7": 205950000, // Centro Querétaro
+      "longitudeE7": -1003900000,
+      "accuracy": 11,
+      "activity": [
+        {
+          "timestampMs": "1679838130000",
+          "activities": [{ "type": "WALKING", "confidence": 93 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679838223456",
+      "latitudeE7": 205750000, // Plaza del Parque
+      "longitudeE7": -1003950000,
+      "accuracy": 13,
+      "activity": [
+        {
+          "timestampMs": "1679838230000",
+          "activities": [{ "type": "IN_VEHICLE", "confidence": 91 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679838323456",
+      "latitudeE7": 20.544075536975374, // Parque Tejeda
+      "longitudeE7": -100.42053672028841,
+      "accuracy": 14,
+      "activity": [
+        {
+          "timestampMs": "1679838330000",
+          "activities": [{ "type": "STILL", "confidence": 96 }]
+        }
+      ]
+    },
+    {
+      "timestampMs": "1679838423456",
+      "latitudeE7": 205650000, // Bernardo Quintana
+      "longitudeE7": -1003850000,
+      "accuracy": 12,
+      "activity": [
+        {
+          "timestampMs": "1679838430000",
+          "activities": [{ "type": "IN_VEHICLE", "confidence": 94 }]
+        }
+      ]
+    }
+  ]
+}

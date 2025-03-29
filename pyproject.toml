@@ -1,0 +1,12 @@
+[project]
+name = "hack-uaq"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1.7",
+    "dotenv>=0.9.9",
+    "google-genai>=1.8.0",
+    "google-generativeai>=0.8.4",
+]
